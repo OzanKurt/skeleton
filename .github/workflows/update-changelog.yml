@@ -24,7 +24,7 @@ jobs:
           release-notes: ${{ github.event.release.body }}
 
       - name: Commit updated CHANGELOG
-        uses: stefanzweifel/git-auto-commit-action@3ea6ae190baf489ba007f7c92608f33ce20ef04a # v4
+        uses: stefanzweifel/git-auto-commit-action@04702edda442b2e678b25b537cec683a1493fcb9 # v7.1.0
         with:
           branch: main
           commit_message: Update CHANGELOG
